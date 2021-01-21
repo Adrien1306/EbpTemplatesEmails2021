@@ -1,0 +1,997 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+
+	<style type="text/css">
+		/* latin */
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+			mso-font-alt: 'Arial';
+		}
+
+		/* latin regular */
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+			mso-font-alt: 'Arial';
+		}
+
+		/* latin italic*/
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 400;
+			font-display: swap;
+			src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzI.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+			mso-font-alt: 'Arial';
+		}
+
+		/* latin bold*/
+		@font-face {
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+			mso-font-alt: 'Arial';
+		}
+
+		/* latin bold italic*/
+		@font-face {
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 700;
+			font-display: swap;
+			src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+			mso-font-alt: 'Arial';
+		}
+	</style>
+
+	<style type="text/css">
+		html {
+			width: 100%;
+		}
+
+		::-moz-selection {
+			background: #0f4486;
+			color: #ffffff;
+		}
+
+		::selection {
+			background: #0f4486;
+			color: #ffffff;
+		}
+
+		body {
+			background-color: #f6f7fc;
+			margin: 0;
+			padding: 0;
+		}
+
+		.ReadMsgBody {
+			width: 100%;
+			background-color: #f6f7fc;
+		}
+
+		.ExternalClass {
+			width: 100%;
+			background-color: #f6f7fc;
+		}
+
+		a {
+			color: #1E88E5;
+			/*0f4486*/
+			text-decoration: none;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		a:hover {
+			color: #0f4486;
+			text-decoration: underline;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		a.heading-link {
+			text-decoration: none;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		a.heading-link:hover {
+			text-decoration: none;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+
+
+		p,
+		div {
+			margin: 0 !important;
+		}
+
+		table {
+			border-collapse: collapse;
+		}
+
+
+		@media only screen and (max-width: 540px) {
+			body {
+				width: auto !important;
+			}
+
+			body table table {
+				width: 100% !important;
+			}
+
+			body table[class="table-wrapper"] {
+				width: 440px !important;
+				margin: 0 auto !important;
+			}
+
+			body table[class="table-inner"] {
+				width: 400px !important;
+				margin: 0 auto !important;
+			}
+
+			body table[class="full"] {
+				width: 400px !important;
+				margin: 0 auto !important;
+			}
+
+			body td[class="center"] {
+				text-align: center !important;
+			}
+
+			body img[class="img_scale"] {
+				width: 100% !important;
+				height: auto !important;
+			}
+
+			body img[class="divider"] {
+				width: 100% !important;
+				height: 1px !important;
+			}
+
+			.BGMOBILE {
+				background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+				background-size: cover !important;
+			}
+		}
+
+
+		@media only screen and (max-width: 479px) {
+			body {
+				width: auto !important;
+			}
+
+			body table table {
+				width: 100% !important;
+			}
+
+			body table[class="table-wrapper"] {
+				width: 280px !important;
+				margin: 0 auto !important;
+			}
+
+			body table[class="table-inner"] {
+				width: 240px !important;
+				margin: 0 auto !important;
+			}
+
+			body table[class="full"] {
+				width: 240px !important;
+				margin: 0 auto !important;
+			}
+
+			body td[class="center"] {
+				text-align: center !important;
+			}
+
+			body img[class="img_scale"] {
+				width: 100% !important;
+				height: auto !important;
+			}
+
+			body img[class="divider"] {
+				width: 100% !important;
+				height: 1px !important;
+			}
+
+			body *[class~=spacer] {
+				display: none;
+			}
+
+			.BGMOBILE {
+				background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+				background-size: cover !important;
+			}
+
+		}
+
+		.BGMOBILE {
+			background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+			background-size: cover !important;
+		}
+
+		.BGMOBILE {
+			background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+			background-size: cover !important;
+		}
+	</style>
+
+	<style>
+		.BGMOBILE {
+			background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+			background-size: cover !important;
+		}
+
+		@media only screen and (max-width: 540px) {
+
+			.BGMOBILE {
+				background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+				background-size: cover !important;
+			}
+		}
+
+		@media only screen and (max-width: 479px) {
+			.BGMOBILE {
+				background-image: url('https://static.ebp.com/FR/2020/EBP/Emailing/JEDI/BEN/438_images/section-BGIMG-f6f7fc_440x518.jpg') !important;
+				background-size: cover !important;
+			}
+
+		}
+	</style>
+
+	<!--[if !mso]><!-->
+	<style type="text/css">
+		body,
+		table,
+		td,
+		span,
+		p {
+			font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+			font-weight: 400;
+		}
+
+		strong {
+			font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
+			font-weight: 700 !important;
+		}
+
+		a {
+			color: #1E88E5;
+			text-decoration: underline;
+			font-weight: 400;
+			font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+			font-style: normal
+		}
+
+		a:hover {
+			color: #0f4486;
+			text-decoration: underline;
+			font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+			font-weight: 400;
+			font-style: normal
+		}
+
+		strong a,
+		a strong,
+		strong a:hover,
+		a:hover strong {
+			font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+			font-weight: 700
+		}
+
+		a.heading-link {
+			text-decoration: none;
+			font-weight: 700;
+			font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+			font-style: normal
+		}
+
+		a.heading-link:hover {
+			text-decoration: none;
+			font-weight: 700;
+			font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+			font-style: normal
+		}
+
+		a.heading-link1 {
+			text-decoration: none;
+			font-weight: 400;
+			font-style: normal
+		}
+
+		a.heading-link1 {
+			text-decoration: none;
+			font-weight: 700;
+			font-family: 'Roboto', Arial, Helvetica, sans-serif;
+			font-style: normal
+		}
+
+		a.CTA,
+		a.CTA:hover {
+			padding: 10px 20px;
+			display: inline-block;
+			text-transform: none;
+			font-size: 14px;
+			line-height: 22px;
+			mso-line-height-rule: exactly;
+			font-family: 'Roboto', Arial, Helvetica, sans-serif;
+			color: rgb(15, 68, 134);
+			text-decoration: underline
+		}
+
+		td.courier,
+		.courier,
+		.courier strong {
+			font-family: 'Courier New', Courier, monospace, 'Roboto', Helvetica, Arial, sans-serif !important;
+		}
+	</style>
+	<!--<![endif]-->
+
+	<!--[if gte mso 15]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG></o:AllowPNG>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- header -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<!-- FILET BLEU -->
+							<tr>
+								<td height="5" bgcolor="#fcb814"
+									style="padding:0; margin:0; font-size:5px; line-height:5px; mso-line-height-rule:exactly;">
+								</td>
+							</tr>
+							<!-- VERTICAL SPACER -->
+							<tr>
+								<td height="15" style="padding:0; line-height:0;"> </td>
+							</tr>
+							<tr>
+								<td align="center"
+									style="color:#414141; text-transform: none; font-family:'Roboto', Arial, sans-serif; font-style: normal; font-weight: 300; font-size:18px; line-height:38px; mso-line-height-rule: exactly;">
+									Evénement
+								</td>
+							</tr>
+							<!-- LOGO -->
+							<tr>
+								<td align="center">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td height="40" align="center">
+													<a href="https://www.ebp.com/" target="_blank"
+														style="color:#0f4486;">
+														<img src="http://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/logo_ebp.png"
+															alt="Logo EBP" width="100" height="46" border="0"
+															style="display:inline-block;" /></a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<!-- VERTICAL SPACER -->
+							<tr>
+								<td height="30" style="padding:0; line-height: 0;"> </td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- visuel -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table width="600" border="0" align="center" cellpadding="0" cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td valign="top">
+													<table width="100%" border="0" align="left" cellpadding="0"
+														cellspacing="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td colspan="3"
+																	style="margin:0; padding:0; line-height:1; mso-line-height-rule:exactly; text-align:center;">
+																	<img class="img_scale"
+																		src="http://static.ebp.com/FR/2020/EBP/Emailing/Events/ban_email_SDE_2020.jpg"
+																		alt="" width="600" height="300" border="0"
+																		style="display: inline-block;" />
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+
+							<tr>
+								<td height="20" style="padding:0; line-height:0;">&nbsp;</td>
+							</tr><!-- VERTICAL SPACER -->
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<!-- titre -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<!-- H1 -->
+											<tr>
+												<td class="center" align="center"
+													style="color:#414141; text-transform: none; font-family:'Roboto', Arial, sans-serif; font-style: normal; font-weight: 300; font-size:28px; line-height:38px; mso-line-height-rule: exactly;">
+													Retrouvez-nous au Salon des Entrepreneurs
+													la semaine prochaine
+												</td>
+											</tr>
+											<!-- ESPACEMENT VERTICAL -->
+											<tr>
+												<td height="40" style="padding:0; line-height:0;"> </td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- titre accrocheur du CTA -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td valign="top">
+													<!-- MODULE H2  -->
+													<table width="100%" border="0" align="left" cellpadding="0"
+														cellspacing="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td align="center"
+																	style="margin:0; padding:0; font-size:22px; font-weight: 300; color:#414141; font-family:'Roboto', Arial, sans-serif; line-height:34px; mso-line-height-rule:exactly;">
+																	Profitez de cette occasion pour venir rencontrer
+																	l’équipe Éditeurs Partenaires.
+																</td>
+															</tr>
+															<!-- espacement titre -->
+															<tr>
+																<td height="10"
+																	style="font-size:20px; line-height:20px; mso-line-height-rule:exactly;">
+
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- MODULE CTA TYPE 3-->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td valign="top">
+
+													<!-- CTA(type 3) -->
+													<table border="0" width="100%">
+														<tbody>
+															<tr>
+																<td align="center">
+																	<table border="0" cellpadding="0" cellspacing="0"
+																		style="margin:0px 0 20px 0;">
+																		<tbody>
+																			<tr>
+																				<td align="center"
+																					style="text-align:center; font-family:'Roboto', 'Arial', sans-serif;background-color: #fcb814; border-radius:100px; padding:10px 20px;">
+																					<a href="#" target="_blank"
+																						style=" font-size:16px; text-decoration:none;">
+																						<span style="color:#0f4486;">
+																							S'inscrire
+																						</span>
+																					</a>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+
+													<!-- MODULE MODULE ESPACEMENT SECTION -->
+													<table width="100%" border="0" align="left" cellpadding="0"
+														cellspacing="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td height="10">
+
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+	<!-- MODULE TEXTE DE BASE -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td valign="top">
+													<!-- MODULE TEXTE -->
+													<table width="100%" border="0" align="left" cellpadding="0"
+														cellspacing="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td align="left"
+																	style="margin:0; padding:0; font-size:14px; color:#7f879e; font-family:'Roboto', Arial, sans-serif; line-height:23px; mso-line-height-rule:exactly;">
+																	$IF($U(10) = * ) Bonjour $U(10) $U(9), $ELSE Cher
+																	Partenaire, $END <br><br>
+
+																	Nous vous informons qu'EBP sera présent au Salon des
+																	Entrepreneurs, qui aura lieu au Palais des Congrès
+																	de Paris. <br><br>
+																	Profitez de cette occasion pour venir rencontrer
+																	l’équipe Éditeurs Partenaires. Nous serons présents
+																	sur le stand EBP afin d'échanger autour de vos
+																	solutions et des synergies possibles.
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													<!-- MODULE ESPACEMENT SECTION -->
+													<table width="100%" border="0" align="left" cellpadding="0"
+														cellspacing="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td height="40">
+
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+
+	<!-- footer -->
+	<!-- signature -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center" style="padding-bottom: 30px;">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td valign="top">
+													<!-- colonne 1 -->
+													<table class="full" align="left" width="160" cellpadding="0"
+														cellspacing="0" border="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td align="left"
+																	style="margin:0; padding:30px 0 0 0; line-height:1; mso-line-height-rule:exactly;">
+																	<img class=""
+																		src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/vignettes-signature/service-client.png"
+																		alt="" width="150" height="" border="0"
+																		style="display: block" />
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													<!-- colonne 2 -->
+													<table class="full" align="right" width="350" cellpadding="0"
+														cellspacing="0" border="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td align="left"
+																	style="margin:0; padding:30px 0 0 0; font-size:14px; color:#7f879e; font-family:'Roboto', Arial, sans-serif; line-height:19px; mso-line-height-rule:exactly;">
+
+																	<span style="font-size: 12px;">PARCE QUE VOUS
+																		COMPTEZ</span>
+																	<br><br>
+																	<span
+																		style="font-size: 21px; color: #414141; line-height: 30px; mso-line-height-rule:exactly;">
+																		L’équipe Éditeurs Partenaires</span><br>
+																	reste à votre disposition <br>
+																	pour toute information complémentaire :
+																	<br><br>
+																	<table cellpadding="0" cellspacing="0" border="0">
+																		<tbody>
+																			<tr>
+																				<td> <img
+																						src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/icones/105502-PictoGen-T&eacute;l&eacute;phone-gris.png"
+																						alt="" width="15"
+																						style="vertical-align: text-top;">
+																					&nbsp;
+																				</td>
+																				<td> <a href="tel:0134948020"
+																						style="color:#0f4486; text-decoration:none; font-family:'Roboto', Arial, sans-serif;">
+																						01 34 94 80 20</a></td>
+																			</tr>
+																			<tr>
+																				<td><img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/icones/104302-PictoGen-Courrier-gris.png"
+																						alt="" width="15"
+																						style="vertical-align: text-top;">
+																					&nbsp;</td>
+																				<td><a href="mailto:experts.fr@ebp.com"
+																						style="color:#0f4486; text-decoration:underline; font-family:'Roboto', Arial, sans-serif;">
+																						experts.fr@ebp.com</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- filet gris-->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td height="1"
+													style="padding:0; margin:0; font-size:5px; line-height:5px; mso-line-height-rule:exactly; background-color: #D9E2EC;">
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- bandeau avis + RS -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center" style="padding: 0px;">
+									<table class="table-inner" width="540" border="0" align="center" cellpadding="0"
+										cellspacing="0"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td height="70px">
+													<table align="left" width="250" height="70px" cellpadding="0"
+														cellspacing="0" border="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td align="center" width="125">
+																	<a href="https://fr.trustpilot.com/review/ebp.com?utm_medium=Trustbox&utm_source=EmailSignature1"
+																		target="_blank" rel="noopener noreferrer"
+																		style="text-decoration:none;text-underline: none;">
+																		<img src="https://emailsignature.trustpilot.com/brand/s/1/logo.png"
+																			border="0" width="75"
+																			style="max-width: 82px; width: 75;border: none;"
+																			alt="Trustpilot Logo"><br />
+																		<img src="https://emailsignature.trustpilot.com/signature/fr-FR/1/5aabb8d22e48e50001963cea/stars.png"
+																			border="0" width="75"
+																			style="max-width: 128px; width: 75;border: none;"
+																			alt="Trustpilot Stars">
+																	</a>
+																</td>
+																<td align="center" width="125"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://www.avis-verifies.com/avis-clients/ebp.com"
+																		target="_blank">
+																		<img src="http://cl.avis-verifies.com/fr/cache/4/3/1/431f3453-d7ef-8444-0981-c097bd3d37c2/widget3/widget03-25729.png"
+																			alt="WidgetAvisVerifies" width="100">
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													<table class="table_scale" align="right" width="250" height="70px"
+														cellpadding="0" cellspacing="0" border="0"
+														style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tbody>
+															<tr>
+																<td width="25" align="center"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://fr.linkedin.com/company/ebp-informatique"
+																		target="_blank">
+																		<img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/RS/linkedin.png"
+																			alt="LinkedIn" width="25" align="center"
+																			border="0"></a>
+																</td>
+																<td width="25" align="center"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://twitter.com/ebp_france?lang=fr"
+																		target="_blank">
+																		<img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/RS/twitter.png"
+																			alt="Twitter" width="25" align="center"
+																			border="0"></a>
+																</td>
+																<td width="25" align="center"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://www.youtube.com/user/EBPinformatique"
+																		target="_blank">
+																		<img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/RS/youtube.png"
+																			alt="Youtube" width="25" align="center"
+																			border="0"></a>
+																</td>
+																<td width="25" align="center"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://www.facebook.com/ebpinformatique/"
+																		target="_blank">
+																		<img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/RS/facebook.png"
+																			alt="Facebook" width="25" align="center"
+																			border="0"></a>
+																</td>
+																<td width="25" align="center"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://www.instagram.com/ebp_informatique/"
+																		target="_blank">
+																		<img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/RS/instagram.png"
+																			alt="Instagram" width="25" align="center"
+																			border="0"></a>
+																</td>
+																<td width="25" align="center"
+																	style="padding:0 0px 0 0px;">
+																	<a href="https://www.ebp.com/blog" target="_blank">
+																		<img src="https://static.ebp.com/FR/2021/WEB/Emails/templateEmail2021/img/RS/blog.png"
+																			alt="Blog EBP" width="25" align="center"
+																			border="0"></a>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- filet jaune-->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#ffffff" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td height="5" bgcolor="#ffba00"
+									style="padding:0; margin:0; font-size:5px; line-height:5px; mso-line-height-rule:exactly;">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- copyright -->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f6f7fc"
+		style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+		<tbody>
+			<tr>
+				<td valign="top" align="center">
+					<table class="table-wrapper" bgcolor="#f6f7fc" width="600" border="0" align="center" cellpadding="0"
+						cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+						<tbody>
+							<tr>
+								<td align="center">
+									<table class="full" align="center" width="540" cellpadding="0" cellspacing="0"
+										border="0" bgcolor="#f6f7fc"
+										style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody>
+											<tr>
+												<td class="center" align="center"
+													style="margin:0; padding:20px 0px; font-size:11px; color:#666666; font-family: Arial, Helvetica, sans-serif; line-height:16px;">
+													&copy;EBP Informatique. Document non contractuel. 2021.
+													EM0120CUC0055.
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+</body>
+
+</html>
